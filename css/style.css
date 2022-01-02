@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+
+
+.container-logo img{
+  height: auto;
+  max-width: 100%;
+}
+
+body{
+    background-color: black;
+}
+.navbar-brand {
+    font-family: "Major Mono Display", monospace;
+    font-size: 38px;
+    letter-spacing: 3.5px;
+    background: -webkit-linear-gradient(rgb(54, 208, 255), rgb(231, 137, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 200ms ease-out;
+    align-self: center;
+    margin-top: 90px;
+  }
+
+.container1{
+    margin-top: 45px;
+    background-color: white;
+    border-radius: 10px;
+    width: 70%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.container1 button{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    border: transparent;
+    border-radius: 3px;
+    font-family: "Major Mono Display", monospace;
+    padding: 5px;
+    font-size: 19px;
+    transition: 150ms ease-out;
+}
+.container1 button:hover{
+    transition: 150ms ease-in;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.container2 button{
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: transparent;
+    border-radius: 3px;
+    font-family: "Major Mono Display", monospace;
+    padding: 5px;
+    font-size: 19px;
+    transition: 150ms ease-out;
+}
+.container2 button:hover{
+    transition: 150ms ease-in;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.container{
+  margin-top: -30px;
+}
+
+.container h6 a{
+    text-decoration: none;
+    font-family: "Major Mono Display", monospace;
+    letter-spacing: 3.5px;
+    background: -webkit-linear-gradient(rgb(54, 208, 255), rgb(231, 137, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+      0deg,
+      rgb(50, 192, 235) 0%,
+      rgb(200, 118, 223) 100%
+    );
+  }
+  
+  ::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(
+      0deg,
+      rgb(39, 159, 196) 0%,
+      rgb(135, 80, 150) 100%
+    );
+  }
+  }
+  
